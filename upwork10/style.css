@@ -1,0 +1,171 @@
+.border {
+    position: absolute;
+     width: 553px;
+      height: 478px;  
+  
+
+      background: #F8F8F8;
+ border: 1px solid #BCBCBC;
+ box-sizing: border-box;
+}
+.border111 {
+    position: absolute;
+     width: 553px;
+      height: 478px;  
+  
+
+      background: #F8F8F8;
+ border: 1px solid #BCBCBC;
+ box-sizing: border-box;
+}
+.border11 {
+    position: absolute;
+    width: auto;
+height: auto;
+  
+
+      background: #F8F8F8;
+ border: 1px solid #BCBCBC;
+ box-sizing: border-box;
+}
+.border111 {
+    position: absolute;
+  width: auto;
+height: auto;
+      background: #F8F8F8;
+ border: 1px solid #BCBCBC;
+ box-sizing: border-box;
+}
+.q1{
+    position: absolute;
+width: 98px;
+height: 23px;
+
+top: 5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 19px;
+line-height: 23px;
+/* identical to box height */
+
+
+color: #9D2DF5;
+}
+.q2{
+    position: absolute;
+width: 98px;
+height: 23px;
+
+top: 390px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 19px;
+line-height: 23px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.lb{
+    position: absolute;
+width: auto;
+height: auto;
+
+top: auto;
+
+background: #F0EAF4;
+}
+.retxt{
+    position: static;
+width: 134px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+/* Body/Regular */
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+/* Body Text/Body Color */
+
+color: #212529;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
